@@ -8,8 +8,6 @@ import java.util.Date;
 
 /**
  * Description 登陆信息
- * Author: rabbiter
- * Date2019/10/21 20:58
  **/
 public class User {
   /**

@@ -2,8 +2,7 @@ package com.rabbiter.sms.dto;
 
 /**
  * Description 课程表实体类
- * Author: rabbiter
- * Date: 2020/4/7 13:57
+
  **/
 public class Timetable {
   /**

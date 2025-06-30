@@ -12,11 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Description 教师课程控制层
- * Author: rabbiter
- * Date: 2020/3/29 15:03
- **/
+
 @RestController
 @RequestMapping("/api/sms/teacher/course")
 public class TeacherCourseController {

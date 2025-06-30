@@ -12,11 +12,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import javax.sql.DataSource;
 import java.io.IOException;
 
-/**
- * Description
- * Author: rabbiter
- * Date: 2020/2/27 11:31
- **/
+
 @Configuration
 public class SessionFactoryConfiguration {
   // mybatis-config.xml配置文件的路径

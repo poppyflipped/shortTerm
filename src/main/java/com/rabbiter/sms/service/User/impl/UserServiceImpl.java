@@ -17,8 +17,7 @@ import java.util.stream.Collectors;
 
 /**
  * Description 登陆用户业务层
- * Author: rabbiter
- * Date2019/10/21 21:09
+
  **/
 @Service
 public class UserServiceImpl implements UserService {

@@ -9,8 +9,7 @@ import java.util.Map;
 
 /**
  * Description 教师用户接口
- * Author: rabbiter
- * Date: 2020/3/7 15:05
+
  **/
 public interface TeacherService {
   /**

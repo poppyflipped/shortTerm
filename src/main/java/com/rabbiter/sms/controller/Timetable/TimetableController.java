@@ -11,11 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Description  课程表控制层
- * Author: rabbiter
- * Date: 2020/4/7 14:02
- **/
 @RestController
 @RequestMapping("/api/sms/timetable")
 public class TimetableController {

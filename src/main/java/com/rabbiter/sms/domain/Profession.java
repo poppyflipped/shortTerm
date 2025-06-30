@@ -2,8 +2,7 @@ package com.rabbiter.sms.domain;
 
 /**
  * Description 专业实体类
- * Author: rabbiter
- * Date: 2020/3/31 17:25
+
  **/
 public class Profession {
   /**

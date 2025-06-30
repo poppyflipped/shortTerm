@@ -2,8 +2,7 @@ package com.rabbiter.sms.domain;
 
 /**
  * Description 课程具体安排
- * Author: rabbiter
- * Date: 2020/5/3 14:48
+
  **/
 public class CourseInfo {
   /**

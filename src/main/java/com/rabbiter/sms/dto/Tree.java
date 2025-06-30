@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 /**
  * Description 树形实体类
- * Author: rabbiter
- * Date: 2020/3/27 22:07
+
  **/
 public class Tree {
   private String name;

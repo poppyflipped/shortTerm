@@ -4,8 +4,7 @@ import com.rabbiter.sms.dto.Course;
 
 /**
  * Description 教师课程任命表实体类
- * Author: rabbiter
- * Date: 2020/3/29 15:04
+
  **/
 public class TeacherCourse {
   /**

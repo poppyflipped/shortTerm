@@ -14,11 +14,6 @@ import java.util.List;
 import java.util.Map;
 
 
-/**
- * Description 成绩查询控制层
- * Author: rabbiter
- * Date: 2020/3/13 15:25
- **/
 
 @RestController
 @RequestMapping("/api/sms/score")

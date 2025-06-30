@@ -10,11 +10,7 @@ import org.springframework.web.servlet.config.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Description 解决vue+spring boot跨域问题
- * Author: rabbiter
- * Date: 2022/2/26 22:48
- **/
+
 @Configuration
 public class WebConfig extends WebMvcConfigurationSupport {
     @Override

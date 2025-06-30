@@ -13,11 +13,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Description 课程控制层
- * Author: rabbiter
- * Date: 2020/3/11 14:40
- **/
+
 @RestController
 @RequestMapping("/api/sms/course")
 public class CourseController {

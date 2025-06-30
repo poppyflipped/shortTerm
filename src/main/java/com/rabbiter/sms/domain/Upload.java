@@ -2,8 +2,7 @@ package com.rabbiter.sms.domain;
 
 /**
  * Description 上传
- * Author: rabbiter
- * Date: 2020/4/29 12:50
+
  **/
 public class Upload {
   /**

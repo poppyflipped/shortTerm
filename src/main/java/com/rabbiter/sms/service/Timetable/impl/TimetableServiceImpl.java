@@ -19,9 +19,7 @@ import javax.annotation.Resource;
 import java.util.*;
 
 /**
- * Description
- * Author: rabbiter
- * Date: 2020/4/7 14:17
+
  **/
 @Service
 public class TimetableServiceImpl implements TimetableService {

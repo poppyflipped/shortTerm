@@ -4,8 +4,7 @@ import java.util.Date;
 
 /**
  * Description 课程信息实体类
- * Author: rabbiter
- * Date: 2020/3/11 14:50
+
  **/
 public class Course {
   /**

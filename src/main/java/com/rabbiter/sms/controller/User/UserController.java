@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 
-/**
- * Description 登陆用户控制层
- * Author: rabbiter
- * Date2019/10/21 21:00
- **/
+
 @RestController
 @UserLoginToken
 @RequestMapping("/api/sms/user")

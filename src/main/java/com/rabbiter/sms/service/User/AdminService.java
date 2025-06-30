@@ -9,8 +9,7 @@ import java.util.Map;
 
 /**
  * Description 管理员Service层
- * Author: rabbiter
- * Date: 2020/3/28 11:05
+
  **/
 public interface AdminService {
   /**

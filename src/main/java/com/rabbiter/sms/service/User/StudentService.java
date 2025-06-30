@@ -9,8 +9,7 @@ import java.util.Map;
 
 /**
  * Description 学生账号接口
- * Author: rabbiter
- * Date: 2020/3/7 15:04
+
  **/
 public interface StudentService {
   /**

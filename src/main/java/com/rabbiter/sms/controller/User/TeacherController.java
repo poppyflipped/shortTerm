@@ -11,11 +11,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Description 教师账号控制层
- * Author: rabbiter
- * Date: 2020/3/7 11:51
- **/
 @RestController
 @RequestMapping("/api/sms/user/teacher")
 public class TeacherController {

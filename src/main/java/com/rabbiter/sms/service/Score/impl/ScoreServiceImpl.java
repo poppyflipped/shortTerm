@@ -13,11 +13,6 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Description
- * Author: rabbiter
- * Date: 2020/3/13 15:49
- **/
 @Service
 public class ScoreServiceImpl implements ScoreService {
   @Autowired

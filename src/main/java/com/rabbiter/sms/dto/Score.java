@@ -2,8 +2,7 @@ package com.rabbiter.sms.dto;
 
 /**
  * Description 分数信息实体类
- * Author: rabbiter
- * Date: 2020/3/19 10:55
+
  **/
 public class Score {
   /**

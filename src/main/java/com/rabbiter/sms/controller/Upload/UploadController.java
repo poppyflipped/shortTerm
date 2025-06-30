@@ -19,11 +19,7 @@ import java.util.UUID;
 
 import static java.lang.Integer.parseInt;
 
-/**
- * Description 上传控制层
- * Author: rabbiter
- * Date: 2020/4/29 13:53
- **/
+
 @RestController
 @RequestMapping("/api/sms/upload")
 public class UploadController {

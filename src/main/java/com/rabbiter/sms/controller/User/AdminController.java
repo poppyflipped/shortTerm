@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 import java.util.List;
 
-/**
- * Description 管理员账户控制层
- * Author: rabbiter
- * Date: 2020/3/28 11:05
- **/
+
 @RestController
 @RequestMapping("/api/sms/user/admin")
 public class AdminController {

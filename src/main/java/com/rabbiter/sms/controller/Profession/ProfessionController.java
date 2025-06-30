@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Description 所有专业控制层
- * Author: rabbiter
- * Date: 2020/3/31 17:28
- **/
+
 @RestController
 @RequestMapping("/api/sms/profession")
 public class ProfessionController {

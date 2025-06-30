@@ -7,11 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.beans.PropertyVetoException;
 
-/**
- * Description
- * Author: rabbiter
- * Date: 2020/2/26 23:39
- **/
+
 @Configuration
 // 配置mybatis的扫描路径
 @MapperScan("com.zjh.student_mis.dao")
