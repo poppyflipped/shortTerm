@@ -12,21 +12,18 @@ public interface UserMapper {
   /**
    * description: 根据学生用户、密码登陆
    * @params: condition
-   * @return: com.zjh.sms.dto.User
 
    */
   User getStudentInfo(@Param("condition") Map<String, Object> condition);
   /**
    * description: 根据老师用户、密码登陆
    * @params: condition
-   * @return: com.zjh.sms.dto.User
 
    */
   User getTeacherInfo(@Param("condition") Map<String, Object> condition);
   /**
    * description: 根据管理员用户、密码登陆
    * @params: condition
-   * @return: com.zjh.sms.dto.User
 
    */
   User getAdminInfo(@Param("condition") Map<String, Object> condition);

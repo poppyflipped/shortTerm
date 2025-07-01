@@ -16,8 +16,7 @@ public interface StudentService {
   * description: 新增学生账号
   * @param user
   * @return void
-  * @author rabbiter
-  * @date 2020/3/4 23:05
+
   */
   void addStudent(User user);
 
@@ -26,8 +25,7 @@ public interface StudentService {
    *
    * @param ids
    * @return void
-   * @author rabbiter
-   * @date 2019/8/29 14:55
+
    */
   void delete(List<String> ids);
 
@@ -36,8 +34,7 @@ public interface StudentService {
    *
    * @param user
    * @return void
-   * @author rabbiter
-   * @date 2019/8/29 14:55
+
    */
   void update(User user);
 
@@ -45,9 +42,6 @@ public interface StudentService {
    * description: 获取学生账号信息列表
    * @param rowBounds
    * @param condition
-   * @author rabbiter
-   * @return com.jw.zjh.sms.utils.PagingResult
-   * @date 2020/3/4 23:05
    */
   PagingResult<User> getStudentList(RowBounds rowBounds, Map<String, Object> condition);
 }

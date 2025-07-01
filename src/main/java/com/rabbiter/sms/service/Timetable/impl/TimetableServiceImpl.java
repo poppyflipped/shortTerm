@@ -209,40 +209,6 @@ public class TimetableServiceImpl implements TimetableService {
     }
 
     return newList;
-
-
-    // 获取教师负责的专业、班级、课程
-//    List<TeacherCourse> list = teacherCourseMapper.getCourseListById(condition.get("teacherId").toString());
-//    List<WeekCourse> newList = new ArrayList<>();
-//    // 将新课程的每一项设为"一"
-//    for (int i = 1; i < 11; i++) {
-//      WeekCourse week = new WeekCourse();
-//      dealWeek(week);
-//      newList.add(week);
-//    }
-//    for (TeacherCourse teacherCourse : list) {
-//      Map<String, Object> map = new HashMap<>();
-//      map.put("profession", teacherCourse.getProfession());
-//      // 计算年份
-//      Calendar calendar = Calendar.getInstance();
-//      int month = calendar.get(Calendar.MONTH) + 1;
-//      int year = calendar.get(Calendar.YEAR);
-//      if(month > 9) {
-//        year += 1;
-//      }
-//      map.put("year", year);
-//      map.put("grade", teacherCourse.getGrade());
-//      map.put("term", teacherCourse.getTerm());
-//      map.put("week", condition.get("week"));
-//      // 根据专业班级获取课程表
-//      List<WeekCourse> weekCourseList = weekCourseMapper.getWeekCourse(map);
-//      dealMethod(weekCourseList, map);
-//      for (int i = 0; i < weekCourseList.size(); i++) {
-//        WeekCourse weekCourse = dealWeekCourse(newList.get(i), weekCourseList.get(i), teacherCourse.getName());
-//        newList.set(i, weekCourse);
-//      }
-//    }
-//    return newList;
   }
 
   @Override

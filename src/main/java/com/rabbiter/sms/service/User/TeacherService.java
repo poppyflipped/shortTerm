@@ -16,8 +16,6 @@ public interface TeacherService {
    * description: 新增教师账号
    * @param user
    * @return void
-   * @author rabbiter
-   * @date 2020/3/4 23:05
    */
   void addTeacher(User user);
 
@@ -26,8 +24,6 @@ public interface TeacherService {
    *
    * @param ids
    * @return void
-   * @author rabbiter
-   * @date 2019/8/29 14:55
    */
   void delete(List<Integer> ids);
 
@@ -36,8 +32,6 @@ public interface TeacherService {
    *
    * @param user
    * @return void
-   * @author rabbiter
-   * @date 2019/8/29 14:55
    */
   void update(User user);
 
@@ -45,9 +39,6 @@ public interface TeacherService {
    * description: 获取教师账号信息列表
    * @param rowBounds
    * @param condition
-   * @author rabbiter
-   * @return com.jw.zjh.sms.utils.PagingResult
-   * @date 2020/3/4 23:05
    */
   PagingResult<User> getTeacherList(RowBounds rowBounds, Map<String, Object> condition);
 }

@@ -105,10 +105,6 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
     httpServletResponse.setHeader("Authorization", newToken);
     httpServletResponse.setHeader("freshToken", newRefToken);
 
-    //检查有没有需要用户权限的注解
-//    if (method.isAnnotationPresent(UserLoginToken.class)) {  // 是否使用@UserLoginToken注解
-//      UserLoginToken userLoginToken = method.getAnnotation(UserLoginToken.class);
-//      if (userLoginToken.required()) {
         // 执行认证
         if (token == null) {
           throw new RuntimeException("=== 无token，请重新登录 ===");
@@ -121,11 +117,9 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
           logger.error("=== token验证失败 ===");
           httpServletResponse.sendError(401);
           return false;
-//          throw new RuntimeException("401");
+
         }
-//        return true;
-//      }
-//    }
+
     return true;
   }
 
